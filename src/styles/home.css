@@ -1,0 +1,116 @@
+
+
+.hero__bg {
+    background-image: url("../assets/images/hero-bg.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    padding: 300px;
+    width: 100%;
+}
+    
+.hero__bg h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+}
+ 
+.hero__bg h1 .highlight {
+    color: var(--main);
+}
+    
+
+.hero__content p{
+    font-size: 1.1rem;
+    color: black;
+    line-height: 2rem;
+    padding-top: 120px;
+}   
+
+.hero__img-box img, 
+.hero__img-box video{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255); 
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}    
+
+.services__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.featured__room-title{
+    font-size: 2.0rem;
+}
+
+/* .experience__content h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.experience__content p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+
+.counter__wrapper {
+    margin-top: 2.5rem;
+}
+
+.counter__box span {
+    width: 70px;
+    height: 70px; 
+    margin: auto; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 1.6rem; 
+    font-weight: 600;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.counter__box h6 {
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    color: var(--text-color);
+}
+
+.experience__img img {
+    width: 90%;
+} */
+
+.gallery__title {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+
+.img__layout {
+    transition: 0.3s;
+}
+
+.img__layout:hover {
+    transform: scale(1.01);
+}
+
+.testimonial___title {
+    font-size: 2.3rem;
+    margin-top: 1rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+    color:var(--main);
+}
